@@ -6,5 +6,6 @@ Spark-submit
 --num-executors 25
 --executors-cores 2
 --conf spark.dynamicAllocation.enabled=true
+--conf spark.driver.maxResultSize=10g
 /apps/sample/scripts/pyspark/sample.py
 
