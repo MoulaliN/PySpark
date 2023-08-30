@@ -1,1 +1,4 @@
 spark.sql.broadcastTimeout
+spark.sql("SET spark.sql.broadcastTimeout=7200")
+
+
