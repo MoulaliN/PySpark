@@ -1,0 +1,10 @@
+Spark-submit
+--master yarn
+--queue root.default
+--driver-memory 4g
+--executor-memory 16g
+--num-executors 25
+--executors-cores 2
+--conf spark.dynamicAllocation.enabled=true
+/apps/sample/scripts/pyspark/sample.py
+
